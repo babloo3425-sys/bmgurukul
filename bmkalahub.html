@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BmKalaHub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+
+  <body class="project-page"></body>
+
+<div id="lightbox" class="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img id="lightbox-img">
+
+</div>
 
 <header>
     <div class="logo">BM KalaHub</div>
@@ -18,8 +30,7 @@
 
 <section class="project-page">
 
-    <img src="images/bmkalahub.png" class="project-img">
-
+    <img src="images/bmkalahub.png" class="hero-project-logo">
     <h1>BmKalaHub</h1>
 
     <p>
@@ -27,23 +38,279 @@
         connecting artists and opportunities.
     </p>
 
-    <h2>Features</h2>
+     <section class="project-info">
 
-    <ul>
-        <li>Artist Profiles</li>
-        <li>Artist Booking System</li>
-        <li>WhatsApp Contact</li>
-        <li>Search & Categories</li>
-        <li>Mobile Responsive Design</li>
-        <li>Cloudinary Image Upload</li>
-        <li>MongoDB Database</li>
-    </ul>
+    <div class="info-card">
+    <i class="fa-solid fa-circle-check"></i>
+    <h3>Status</h3>
+    <p>Live</p>
+    </div>
 
-    <a href="index.html" class="btn-primary">
-        Back To Home
+    <div class="info-card">
+    <i class="fa-solid fa-globe"></i>
+    <h3>Frontend</h3>
+    <p>Vercel</p>
+    </div>
+
+    <div class="info-card">
+    <i class="fa-solid fa-server"></i>
+    <h3>Backend</h3>
+    <p>Render</p>
+    </div>
+
+    <div class="info-card">
+    <i class="fa-solid fa-database"></i>
+    <h3>Database</h3>
+    <p>MongoDB Atlas</p>
+    </div>
+
+    <div class="info-card">
+    <i class="fa-solid fa-mobile-screen"></i>
+    <h3>Platform</h3>
+    <p>Web + Android</p>
+    </div>
+
+    <div class="info-card">
+    <i class="fa-solid fa-cloud"></i>
+    <h3>Storage</h3>
+    <p>Cloudinary</p>
+    </div>
+
+</section>
+    
+    <section class="features-section">
+
+    <h2>✨ Key Features</h2>
+
+    <div class="features-grid">
+
+        <div class="feature-item">
+            👤 Artist Profiles
+        </div>
+
+        <div class="feature-item">
+            📅 Artist Booking System
+        </div>
+
+        <div class="feature-item">
+            💬 WhatsApp Contact
+        </div>
+
+        <div class="feature-item">
+            🔍 Search & Categories
+        </div>
+
+        <div class="feature-item">
+            📱 Mobile Responsive Design
+        </div>
+
+        <div class="feature-item">
+            ☁️ Cloudinary Image Upload
+        </div>
+
+        <div class="feature-item">
+            🗄️ MongoDB Database
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="screenshots-section">
+
+    <h2>📸 App Screenshots</h2>
+
+    <p class="screenshots-subtitle">
+        Explore the BM KalaHub experience through real application screens.
+    </p>
+
+    <div class="screenshots-grid">
+
+        <img src="assets/screenshots/kalahub-1.jpg" alt="BM KalaHub Home">
+
+        <img src="assets/screenshots/kalahub-2.jpg" alt="Artist Profile">
+
+        <img src="assets/screenshots/kalahub-3.jpg" alt="Dashboard">
+
+        <img src="assets/screenshots/kalahub-4.jpg" alt="Create Artist">
+
+        <img src="assets/screenshots/kalahub-5.jpg" alt="Search Artists">
+
+        <img src="assets/screenshots/kalahub-6.jpg" alt="Mobile View">
+
+    </div>
+
+</section>
+
+<section class="tech-stack">
+
+    <h2>⚡ Technology Stack</h2>
+
+    <div class="tech-grid">
+
+        <div class="tech-card">
+            <h3>
+                <i class="fa-solid fa-code"></i>
+                Frontend
+            </h3>
+            <p>
+                HTML5<br>
+                CSS3<br>
+                JavaScript<br>
+                Vercel
+            </p>
+        </div>
+
+        <div class="tech-card">
+            <h3>
+                <i class="fa-solid fa-server"></i>
+                Backend
+            </h3>
+            <p>
+                Node.js<br>
+                Express.js<br>
+                Render
+            </p>
+        </div>
+
+        <div class="tech-card">
+            <h3>
+                <i class="fa-solid fa-database"></i>
+                Database
+            </h3>
+            <p>
+                MongoDB Atlas
+            </p>
+        </div>
+
+        <div class="tech-card">
+            <h3>
+                <i class="fa-solid fa-cloud"></i>
+                Storage
+            </h3>
+            <p>
+                Cloudinary
+            </p>
+        </div>
+
+        <div class="tech-card">
+            <h3>
+                <i class="fa-solid fa-mobile-screen"></i>
+                Platform
+            </h3>
+            <p>
+                Web<br>
+                Android WebView
+            </p>
+        </div>
+
+        <div class="tech-card">
+            <h3>
+                <i class="fa-solid fa-shield-halved"></i>
+                Authentication
+            </h3>
+            <p>
+                JWT<br>
+                Secure Login
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="live-project">
+
+    <h2>🚀 Explore BM KalaHub</h2>
+
+    <p>
+        Experience India's growing artist marketplace built with modern web technologies.
+    </p>
+
+    <a href="https://bmkalahub.com"
+       target="_blank"
+       class="visit-btn">
+
+       🌐 Open BM KalaHub
+
     </a>
 
 </section>
 
+<section class="related-projects">
+
+    <h2>Explore More BM Projects</h2>
+
+    <div class="related-grid">
+
+        <a href="bmplayer.html" class="related-card">
+            <h3>🎵 BmPlayer</h3>
+            <p>Offline Music Player for Android.</p>
+        </a>
+
+        <a href="bmvideox.html" class="related-card">
+            <h3>🎬 BmVideoX</h3>
+            <p>Professional Video Player.</p>
+        </a>
+
+        <a href="bmreels.html" class="related-card">
+            <h3>📱 BmReels</h3>
+            <p>Short Video Sharing Platform.</p>
+        </a>
+
+        <a href="bmtheaterhub.html" class="related-card">
+            <h3>🎭 BmTheaterHub</h3>
+            <p>Theatre Artist Community.</p>
+        </a>
+
+        <a href="bmgapshap.html" class="related-card">
+            <h3>💬 BmGapShap</h3>
+            <p>Real-Time Chat Application.</p>
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="project-footer">
+
+    <div class="footer-logo">
+
+        <img src="assets/bmgurukul.png" alt="BmGurukul">
+
+        <h2>BmGurukul</h2>
+
+        <p>Learn • Build • Grow</p>
+
+    </div>
+
+    <div class="footer-links">
+
+        <a href="../index.html">Home</a>
+
+        <a href="../index.html#projects">Projects</a>
+
+        <a href="../index.html#roadmap">Roadmap</a>
+
+        <a href="../index.html#contact">Contact</a>
+
+    </div>
+
+    <p class="copyright">
+
+        © 2026 BmGurukul. All Rights Reserved.
+
+    </p>
+
+    <button id="backToTop">
+
+        ↑ Back to Top
+
+    </button>
+
+</footer>
+
+<script src="script.js"></script>
 </body>
+
 </html>

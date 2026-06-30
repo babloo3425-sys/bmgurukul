@@ -3,14 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BM KalaHub - Portfolio</title>
+    <title>BmGurukul | Official BM Ecosystem</title>
+    <link rel="icon" type="image/png" href="assets/bmgurukul.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="style.css">
+
+    <meta name="description"
+      content="Bm GurukuL is the official hub of BM projects including BmPlayer, BmKalaHub, BmVideoX, BmReels, BmTheaterHub and BmGapShap.">
+
+<meta name="keywords"
+      content="Bm GurukuL, BM Projects, Bablu Kumar, BmPlayer, BmKalaHub, BmVideoX, BmReels, BmTheaterHub, BmGapShap">
+
+<meta name="author"
+      content="Bablu Kumar">
+
+<meta name="robots"
+      content="index, follow">
+
+<meta name="theme-color"
+      content="#111827">
+
+    <meta property="og:title"
+      content="Bm GurukuL">
+
+<meta property="og:description"
+      content="Official ecosystem of BM digital projects.">
+
+<meta property="og:type"
+      content="website">
+
+<meta property="og:image"
+      content="assets/screenshot/bmgurukul.png">
+
 </head>
 <body>
 
+
+    <body class="home-page"></body>
+
+    <div id="loader">
+
+    <img src="assets/bmgurukul-logo.gif" alt="BmGurukul">
+
+    <h2>Bm GurukuL</h2>
+
+</div>
 <header>
-    <div class="logo">BM KalaHub</div>
-    <nav>
+    <div class="logo">
+    <img src="assets/bmgurukul.png" alt="BmGurukul Logo">
+    <span>Bm GurukuL</span>
+</div>
+
+<div class="language-switch">
+    <button id="langToggle">हिन्दी</button>
+</div>
+
+<!--
+     <button class="menu-toggle" id="menuToggle">
+    ☰
+</button>
+    -->
+
+    <nav id="mobileMenu">
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
         <a href="#roadmap">Roadmap</a>
@@ -21,65 +75,84 @@
 
 <section id="home" class="hero">
 
-    <h1>
-        Building Apps &<br>
-        Digital Products
-    </h1>
+    <div class="hero-content">
 
-    <p>Created by Bablu Kumar</p>
+        <div class="hero-logo">
+            <img src="assets/bmgurukul-logo.gif" alt="BmGurukul Logo">
+        </div>
 
-    <p class="hero-sub">
-        Building Android Apps, Web Platforms &
-        Digital Products under the BM brand.
-    </p>
+      <h1 class="hero-title">
 
-    <div class="hero-buttons">
+    <span class="welcome-text" id="welcomeText">Welcome to</span><br>
 
-        <a href="#projects" class="btn-primary">
-            View Projects
-        </a>
+    <span class="brand-text" id="brandText">Bm GurukuL</span>
 
-        <a href="#contact" class="btn-secondary">
-            Contact Me
-        </a>
+</h1>
+
+        <p class="author" id="authorText">
+    Created by Bablu Kumar
+</p>
+
+<p class="hero-sub" id="heroDesc">
+    The official ecosystem of BM projects bringing together
+    BmPlayer, BmKalaHub, BmVideoX, BmReels,
+    BmTheaterHub and BmGapShap on one platform.
+</p>
+
+<div class="hero-buttons">
+
+    <a href="#projects" class="btn-primary" id="viewProjectsBtn">
+        View Projects
+    </a>
+
+    <a href="#contact" class="btn-secondary" id="contactBtn">
+        Contact Me
+    </a>
+
+</div>
+
+        <p class="hero-projects">
+            🎵 BmPlayer • 🎭 BmKalaHub • 🎬 BmVideoX • 🎥 BmTheaterHub • 📱 BmReels • 💬 BmGapShap
+        </p>
 
     </div>
-
-    <p class="hero-projects">
-        🎵 BmPlayer • 🎭 BmKalaHub • 🎬 BmVideoX • 🎥 BmTheaterHub • 📱 BmFlix(Reels) • 💬 BmGapShap
-    </p>
 
 </section>
 
 <section class="stats">
 
-    <div class="stat">
-        <h2>6+</h2>
-        <p>Projects</p>
-    </div>
+    <div class="stats-grid">
 
-    <div class="stat">
-        <h2>1+</h2>
-        <p>Published Apps</p>
-    </div>
+        <div class="stat">
+            <h2>6+</h2>
+            <p>Projects</p>
+        </div>
 
-    <div class="stat">
-        <h2>100+</h2>
-        <p>Downloads</p>
-    </div>
+        <div class="stat">
+            <h2>1+</h2>
+            <p>Published Apps</p>
+        </div>
 
-    <div class="stat">
-        <h2>2026</h2>
-        <p>Journey Started</p>
+        <div class="stat">
+            <h2>100+</h2>
+            <p>Downloads</p>
+        </div>
+
+        <div class="stat">
+            <h2>2026</h2>
+            <p>Journey Started</p>
+        </div>
+
     </div>
 
 </section>
 
 <section class="about">
 
-    <h2>About Me</h2>
+    <h2 id="aboutTitle">About Me</h2>
 
-    <p>
+
+    <p id="aboutDesc">
         Hi, I'm Bablu Kumar, an Android and Web Developer.
         I build digital products under the BM brand including
         BmPlayer, BmKalaHub, BmVideoX, BmTheaterHub, BmReels
@@ -145,28 +218,28 @@
 
 <section class="journey">
 
-    <h2>My Journey</h2>
+    <h2 id="journeyTitle">My Journey</h2>
 
     <div class="timeline">
 
         <div class="timeline-item">
             <h3>2025</h3>
-            <p>Started Android App Development</p>
+            <p id="journey1">Started Android App Development</p>
         </div>
 
         <div class="timeline-item">
             <h3>BmPlayer</h3>
-            <p>Built and Published Music Player</p>
+            <p id="journey2">Built and Published Music Player</p>
         </div>
 
         <div class="timeline-item">
             <h3>BmKalaHub</h3>
-            <p>Created Artist Marketplace Platform</p>
+            <p id="journey3">Created Artist Marketplace Platform</p>
         </div>
 
         <div class="timeline-item">
             <h3>2026</h3>
-            <p>Expanded into Web Apps & Platforms</p>
+            <p id="journey4">Expanded into Web Apps & Platforms</p>
         </div>
 
     </div>
@@ -174,7 +247,7 @@
 </section>
 
 <section id="projects">
-    <h2>My Projects</h2>
+    <h2 id="projectsTitle">My Projects</h2>
 
     <div class="grid">
 
@@ -186,14 +259,14 @@
 
     <h3>🎵 BmPlayer</h3>
 
-    <p>
-        Offline Music Player with Equalizer,
-        Background Playback and AdMob.
-    </p>
+    <p id="bmplayerDesc">
+    Offline Music Player with Equalizer,
+    Background Playback and AdMob.
+</p>
 
-    <a href="bmplayer.html" class="project-btn">
-         View Details
-    </a>
+<a href="bmplayer.html" class="project-btn" id="bmplayerBtn">
+    View Details
+</a>
 </div>
 
 
@@ -205,35 +278,37 @@
 
     <h3>🎭 BmKalaHub</h3>
 
-    <p>
-        Artist Marketplace with Booking,
-        Profiles and WhatsApp Contact.
-    </p>
+    <p id="bmkalahubDesc">
+      Artist Marketplace with Booking,
+      Profiles and WhatsApp Contact.
+   </p>
 
-    <a href="bmkalahub.html" class="project-btn">
-    View Details
-    </a>
-</div>
+    <a href="bmkalahub.html" class="project-btn" id="bmkalahubBtn">
+         View Details
+     </a>
+  </div>
 
         <div class="card">
          <img src="images/BmVideoX.png" class="project-img">
 
         <div class="badge dev">Development</div>
-            <h3>BmVideoX</h3>
-            <p>Advanced Video Player</p>
-            <a href="bmvideox.html" class="project-btn">
-              View Details
-           </a>
+            <h3>🎬BmVideoX</h3>
+            <p id="bmvideoxDesc">Advanced Video Player</p>
+
+       <a href="bmvideox.html" class="project-btn" id="bmvideoxBtn">
+                 View Details
+       </a>
  
         </div>
 
         <div class="card">
         <img src="images/BmTheaterHub.png" class="project-img">
             <div class="badge dev">Development</div> 
-            <h3>BmTheaterHub</h3>
-            <p>Entertainment Platform</p>
-            <a href="bmtheaterhub.html" class="project-btn">
-              View Details
+            <h3>🎥BmTheaterHub</h3>
+            <p id="bmtheaterhubDesc">Theatre Artist Community</p>
+
+           <a href="bmtheaterhub.html" class="project-btn" id="bmtheaterhubBtn">
+                    View Details
             </a>
         </div>
 
@@ -241,11 +316,12 @@
          <img src="images/BmReels.png" class="project-img">
 
         <div class="badge dev">Development</div>
-            <h3>BmFlix(Reels)</h3>
-            <p>Short Video Sharing Platform</p>
-            <a href="bmreels.html" class="project-btn">
-               View Details
-             </a>
+            <h3>📱BmReels</h3>
+            <p id="bmreelsDesc">Short Video Sharing Platform</p>
+
+            <a href="bmreels.html" class="project-btn" id="bmreelsBtn">
+                     View Details
+            </a>
 
         </div>
 
@@ -253,11 +329,12 @@
         <img src="images/BmGapShap.png" class="project-img">
 
         <div class="badge dev">Development</div>
-            <h3>BmGapShap</h3>
-            <p>Chat, Voice & Video Calling App</p>
-           <a href="bmgapshap.html" class="project-btn">
-                 View Details
-           </a>
+            <h3>💬BmGapShap</h3>
+            <p id="bmgapshapDesc">Chat, Voice & Video Calling App</p>
+
+             <a href="bmgapshap.html" class="project-btn" id="bmgapshapBtn">
+                      View Details
+             </a>
  
         </div>
 
@@ -266,26 +343,68 @@
 
 <section id="roadmap">
 
-    <h2>Future Vision</h2>
+    <h2 id="roadmapTitle">Future Vision</h2>
 
     <div class="roadmap-grid">
-        <div>☁️ Cloud Sync</div>
-        <div>🤖 AI Features</div>
-        <div>💎 Premium Apps</div>
-        <div>🌍 Global Launch</div>
+
+        <div id="roadmap1">☁️ Cloud Sync</div>
+
+        <div id="roadmap2">🤖 AI Features</div>
+
+        <div id="roadmap3">💎 Premium Apps</div>
+
+        <div id="roadmap4">🌍 Global Launch</div>
+
     </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="container">
+
+        <h2 id="statsTitle">📊 BmGurukul at a Glance</h2>
+
+        <p id="statsDesc">
+            Building innovative digital products with modern technologies
+            for creators, artists, entertainment, and communication.
+        </p>
+
+        <div class="stats-grid">
+
+    <div class="stat-card">
+        <h3>6+</h3>
+        <span id="projectsStat">Projects</span>
+    </div>
+
+    <div class="stat-card">
+        <h3>5+</h3>
+        <span id="technologiesStat">Technologies</span>
+    </div>
+
+    <div class="stat-card">
+        <h3>4</h3>
+        <span id="platformsStat">Platforms</span>
+    </div>
+
+    <div class="stat-card">
+        <h3>100%</h3>
+        <span id="developedStat">Self Developed</span>
+    </div>
+
+</div>
 
 </section>
 
 <section id="contact">
 
-    <h2>Get In Touch</h2>
+    <h2 id="contactTitle">Get In Touch</h2>
 
     <div class="contact-card">
 
-        <h3>BM KalaHub</h3>
+        <h3 id="contactBrand">BM GurukuL</h3>
 
-        <p>
+        <p id="contactDesc">
             Building Android Apps, Web Platforms &
             Digital Products under the BM brand.
         </p>
@@ -298,18 +417,21 @@
 
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bblkumar8@mail.com"
                target="_blank"
-               class="btn-primary">
+               class="btn-primary"
+               id="emailBtn">
                 Email Me
             </a>
 
             <a href="https://wa.me/919546801267"
                target="_blank"
-               class="btn-secondary">
+               class="btn-secondary"
+               id="whatsappBtn">
                 WhatsApp
             </a>
 
             <a href="#projects"
-               class="btn-secondary">
+               class="btn-secondary"
+               id="viewProjectsContactBtn">
                 View Projects
             </a>
 
@@ -321,22 +443,27 @@
 
 <footer>
 
-    <h3>BM KalaHub</h3>
+    <h3 id="footerTitle">BM GurukuL</h3>
 
-    <p>
+    <p id="footerTagline">
         Apps • Platforms • Digital Products
     </p>
 
-    <p>
+    <p id="footerProjects">
         BmPlayer • BmKalaHub • BmVideoX •
-        BmTheaterHub • BmFlix(Reels) • BmGapShap
+        BmTheaterHub • BmFlix • BmGapShap
     </p>
 
-    <p>
+    <p id="footerCopyright">
         © 2026 Bablu Kumar
     </p>
 
 </footer>
 
-</body>
+   <script src="js/loader.js"></script>
+   <script src="script.js"></script>
+   <script src="language.js"></script>
+
+  </body>
+
 </html>
