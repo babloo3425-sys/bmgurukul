@@ -119,6 +119,8 @@ const translations = {
 
         premiumBtn:"Contact Us",
  
+        pricingNote:"* All prices are starting prices. Final quotation depends on project requirements, features and timeline.",
+
         consultationTitle:"Ready to Build Your Dream Project?",
 
         consultationDesc:"Get a free consultation and discuss your website or app idea. We help businesses, creators, schools and startups build modern digital products.",
@@ -281,6 +283,8 @@ const translations = {
        premium5:"✔ बुकिंग और डैशबोर्ड",
 
        premiumBtn:"संपर्क करें",
+
+       pricingNote:"* सभी कीमतें शुरुआती हैं। अंतिम मूल्य प्रोजेक्ट की आवश्यकताओं, फीचर्स और समय-सीमा के अनुसार तय किया जाएगा।",
 
        consultationTitle:"क्या आप अपना ड्रीम प्रोजेक्ट शुरू करना चाहते हैं?",
 
@@ -478,6 +482,8 @@ setText("premium3", translations[currentLang].premium3);
 setText("premium4", translations[currentLang].premium4);
 setText("premium5", translations[currentLang].premium5);
 setText("premiumBtn", translations[currentLang].premiumBtn);
+
+setText("pricingNote", translations[currentLang].pricingNote);
 
 setText("consultationTitle", translations[currentLang].consultationTitle);
 setText("consultationDesc", translations[currentLang].consultationDesc);

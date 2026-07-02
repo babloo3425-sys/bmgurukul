@@ -2223,6 +2223,15 @@ body.project-page .menu-toggle{
         margin-top:12px;
     }
 
+.pricing-note{
+
+    font-size:14px;
+
+    padding:0 12px;
+
+    margin-top:25px;
+}
+
 }
 
 .logo{
@@ -2890,4 +2899,23 @@ body.project-page .menu-toggle{
     background:#2563eb;
 
     transform:translateY(-2px);
+}
+
+.pricing-note{
+
+    text-align:center;
+
+    color:#9ca3af;
+
+    font-size:15px;
+
+    margin-top:35px;
+
+    line-height:1.7;
+
+    max-width:800px;
+
+    margin-left:auto;
+
+    margin-right:auto;
 }
