@@ -305,6 +305,8 @@ footer{
     color:white;
 }
 
+
+
 .hero-projects{
     margin-top:25px;
     color:#94a3b8;
@@ -1956,6 +1958,271 @@ body.project-page .menu-toggle{
     display:none;
 }
 
+.services{
+    padding:60px 20px;
+}
+
+.services h2{
+    font-size:40px;
+}
+
+.services-grid{
+    grid-template-columns:1fr;
+}
+
+.service-card{
+    padding:30px 22px;
+}
+
+.pricing{
+
+    padding:60px 15px;
+}
+
+.pricing h2{
+
+    font-size:36px;
+
+    margin-bottom:35px;
+}
+
+.pricing-grid{
+
+    gap:20px;
+}
+
+.pricing-card{
+
+    padding:28px 20px;
+
+    border-radius:18px;
+}
+
+.pricing-card h3{
+
+    font-size:32px;
+
+    margin-bottom:8px;
+}
+
+.price-label{
+
+    font-size:14px;
+
+    margin-bottom:3px;
+}
+
+.pricing-card h1{
+
+    font-size:52px;
+
+    margin-bottom:18px;
+}
+
+#premiumPrice{
+
+    font-size:38px;
+}
+
+.pricing-card ul{
+
+    margin:0 0 20px;
+}
+
+.pricing-card ul li{
+
+    padding:10px 0;
+
+    font-size:18px;
+}
+
+.popular{
+
+    font-size:13px;
+
+    padding:6px 16px;
+}
+
+.consultation{
+
+    padding:60px 15px;
+}
+
+.consultation-box{
+
+    width:100%;
+
+    padding:30px 18px;
+
+    border-radius:18px;
+}
+
+.consultation h2{
+
+    font-size:32px;
+}
+
+.consultation p{
+
+    font-size:17px;
+
+    line-height:1.8;
+}
+
+.consultation-buttons{
+
+    width:100%;
+}
+
+.consultation-buttons a{
+
+    width:100%;
+
+    max-width:320px;
+
+    min-width:0;
+
+    margin:0 auto;
+}
+
+/* ===========================
+   WHY CHOOSE MOBILE
+=========================== */
+
+.why-us{
+
+    padding:65px 16px;
+}
+
+.why-us h2{
+
+    font-size:36px;
+
+    margin-bottom:35px;
+}
+
+.why-grid{
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+}
+
+.why-card{
+
+    padding:25px 20px;
+
+    border-radius:18px;
+}
+
+.why-card h3{
+
+    font-size:22px;
+
+    margin-bottom:12px;
+}
+
+.why-card p{
+
+    font-size:16px;
+
+    line-height:1.7;
+}
+
+/* ===========================
+   PROCESS MOBILE
+=========================== */
+
+.process{
+
+    padding:65px 16px;
+}
+
+.process h2{
+
+    font-size:36px;
+
+    margin-bottom:35px;
+}
+
+.process-grid{
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+}
+
+.process-card{
+
+    padding:55px 20px 25px;
+
+    border-radius:18px;
+}
+
+.step-number{
+
+    width:40px;
+
+    height:40px;
+
+    font-size:18px;
+
+    top:15px;
+
+    left:15px;
+}
+
+.process-card h3{
+
+    font-size:22px;
+}
+
+.process-card p{
+
+    font-size:16px;
+
+    line-height:1.7;
+}
+
+/* ===========================
+   FAQ MOBILE
+=========================== */
+
+.faq{
+
+    padding:65px 16px;
+}
+
+.faq h2{
+
+    font-size:36px;
+
+    margin-bottom:35px;
+}
+
+.faq-question{
+
+    font-size:17px;
+
+    padding:18px;
+}
+
+.faq-answer p{
+
+    font-size:16px;
+
+    padding:0 18px 18px;
+}
+
+#backToTop{
+
+        padding:9px 18px;
+
+        font-size:13px;
+
+        margin-top:12px;
+    }
+
 }
 
 .logo{
@@ -1978,4 +2245,649 @@ body.project-page .menu-toggle{
 
     margin:auto;
 
+}
+
+/* ===========================
+   SERVICES
+=========================== */
+
+.services{
+    padding:80px 20px;
+    background:#111827;
+}
+
+.services h2{
+    text-align:center;
+    font-size:48px;
+    color:#fff;
+    margin-bottom:60px;
+}
+
+.services-grid{
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:#1f2937;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+
+    padding:35px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    border-color:#3b82f6;
+    box-shadow:0 20px 40px rgba(59,130,246,.18);
+}
+
+.service-card i{
+    font-size:46px;
+    color:#3b82f6;
+    margin-bottom:20px;
+}
+
+.service-card h3{
+    color:#fff;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#d1d5db;
+    font-size:16px;
+    line-height:1.8;
+}
+
+/* ===========================
+   PRICING
+=========================== */
+
+.pricing{
+    padding:80px 20px;
+    background:#0f172a;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:48px;
+    color:#fff;
+    margin-bottom:60px;
+}
+
+.pricing-grid{
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:35px;
+}
+
+.pricing-card{
+
+    position:relative;
+
+    background:#1f2937;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+}
+
+.pricing-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 45px rgba(59,130,246,.20);
+
+    border-color:#3b82f6;
+}
+
+.pricing-card h3{
+
+    color:#fff;
+
+    font-size:28px;
+
+    margin-bottom:15px;
+}
+
+.pricing-card h1{
+
+    color:#3b82f6;
+
+    font-size:48px;
+
+    margin-bottom:25px;
+}
+
+.pricing-card .btn-primary{
+
+    width:100%;
+
+    padding:14px 18px;
+
+    font-size:17px;
+
+    box-sizing:border-box;
+}
+
+.price-label{
+
+    color:#9ca3af;
+
+    font-size:15px;
+
+    margin-bottom:5px;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    font-weight:600;
+}
+
+#premiumPrice{
+
+    color:#10b981;
+
+    font-size:42px;
+
+    font-weight:700;
+}
+
+.custom-note{
+
+    color:#9ca3af;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    margin-top:-10px;
+
+    margin-bottom:25px;
+}
+
+.pricing-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0 0 35px;
+}
+
+.pricing-card ul li{
+
+    color:#d1d5db;
+
+    padding:12px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.featured{
+
+    transform:scale(1.05);
+
+    border:2px solid #3b82f6;
+}
+
+.popular{
+
+    position:absolute;
+
+    top:-14px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:#3b82f6;
+
+    color:#fff;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:700;
+}
+
+/* ===========================
+   FREE CONSULTATION
+=========================== */
+
+.consultation{
+
+    padding:90px 20px;
+
+    background:linear-gradient(135deg,#2563eb,#0f172a);
+
+}
+
+.consultation-box{
+
+    max-width:800px;
+
+    margin:auto;
+
+    text-align:center;
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.10);
+
+    border-radius:20px;
+
+    padding:45px 35px;
+}
+
+.consultation h2{
+
+    color:#fff;
+
+    font-size:46px;
+
+    margin-bottom:20px;
+}
+
+.consultation p{
+
+    color:#e5e7eb;
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    max-width:700px;
+
+    margin:auto auto 40px;
+}
+
+.consultation-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.consultation-buttons a{
+
+    min-width:240px;
+}
+
+/* ===========================
+   WHY CHOOSE BM GURUKUL
+=========================== */
+
+.why-us{
+
+    padding:90px 20px;
+
+    background:#111827;
+}
+
+.why-us h2{
+
+    text-align:center;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#fff;
+
+    margin-bottom:60px;
+}
+
+.why-grid{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:28px;
+}
+
+.why-card{
+
+    background:#1f2937;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px 30px;
+
+    transition:.35s;
+
+    box-sizing:border-box;
+}
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 18px 40px rgba(59,130,246,.18);
+}
+
+.why-card h3{
+
+    color:#fff;
+
+    font-size:26px;
+
+    margin-bottom:18px;
+
+    line-height:1.4;
+}
+
+.why-card p{
+
+    color:#d1d5db;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin:0;
+}
+
+/* ===========================
+   OUR PROCESS
+=========================== */
+
+.process{
+
+    padding:90px 20px;
+
+    background:#0f172a;
+}
+
+.process h2{
+
+    text-align:center;
+
+    font-size:48px;
+
+    color:#fff;
+
+    margin-bottom:60px;
+}
+
+.process-grid{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+}
+
+.process-card{
+
+    position:relative;
+
+    background:#1f2937;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:60px 30px 35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    overflow:hidden;
+}
+
+.process-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 20px 40px rgba(59,130,246,.18);
+}
+
+.step-number{
+
+    position:absolute;
+
+    top:18px;
+
+    left:20px;
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#3b82f6;
+
+    color:#fff;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+}
+
+.process-card h3{
+
+    color:#fff;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+    line-height:1.4;
+}
+
+.process-card p{
+
+    color:#d1d5db;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin:0;
+}
+
+/* ===========================
+   FAQ
+=========================== */
+
+.faq{
+
+    padding:90px 20px;
+
+    background:#111827;
+}
+
+.faq h2{
+
+    text-align:center;
+
+    font-size:48px;
+
+    color:#fff;
+
+    margin-bottom:60px;
+}
+
+.faq-container{
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+.faq-item{
+
+    background:#1f2937;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    margin-bottom:18px;
+
+    overflow:hidden;
+
+    transition:.3s;
+}
+
+.faq-item:hover{
+
+    border-color:#3b82f6;
+}
+
+.faq-question{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    color:#fff;
+
+    padding:22px 25px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    text-align:left;
+}
+
+.faq-icon{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+    flex-shrink:0;
+
+    margin-left:20px;
+}
+
+.faq-answer{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .35s ease;
+}
+
+.faq-answer p{
+
+    padding:0 25px 25px;
+
+    color:#d1d5db;
+
+    line-height:1.8;
+
+    font-size:17px;
+}
+
+.faq-item.active .faq-answer{
+
+    max-height:220px;
+}
+
+.faq-item.active .faq-icon{
+
+    transform:rotate(45deg);
+}
+
+#backToTop{
+
+    display:block;
+
+    margin:15px auto 0;
+
+    padding:10px 20px;
+
+    background:#3b82f6;
+
+    color:#fff;
+
+    border:none;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 4px 12px rgba(59,130,246,.3);
+}
+
+#backToTop:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-2px);
 }
