@@ -91,4 +91,42 @@ item.classList.toggle("active");
 
 });
 
+/* ===========================
+   GOOGLE ANALYTICS EVENTS
+=========================== */
 
+function trackWhatsAppClick(buttonName){
+
+    if(typeof gtag==="function"){
+
+        gtag("event","whatsapp_click",{
+
+            button_name:buttonName,
+
+            event_category:"Contact",
+
+            event_label:buttonName
+
+        });
+
+    }
+
+}
+
+function trackEmailClick(buttonName){
+
+    if(typeof gtag==="function"){
+
+        gtag("event","email_click",{
+
+            button_name:buttonName,
+
+            event_category:"Contact",
+
+            event_label:buttonName
+
+        });
+
+    }
+
+}
