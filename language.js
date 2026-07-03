@@ -121,6 +121,10 @@ const translations = {
  
         pricingNote:"* All prices are starting prices. Final quotation depends on project requirements, features and timeline.",
 
+        paymentTitle:"💳 Payment Methods",
+
+        paymentDesc:"We accept secure payments through multiple methods after project confirmation.",
+
         consultationTitle:"Ready to Build Your Dream Project?",
 
         consultationDesc:"Get a free consultation and discuss your website or app idea. We help businesses, creators, schools and startups build modern digital products.",
@@ -285,6 +289,10 @@ const translations = {
        premiumBtn:"संपर्क करें",
 
        pricingNote:"* सभी कीमतें शुरुआती हैं। अंतिम मूल्य प्रोजेक्ट की आवश्यकताओं, फीचर्स और समय-सीमा के अनुसार तय किया जाएगा।",
+
+       paymentTitle:"💳 भुगतान के तरीके",
+
+       paymentDesc:"प्रोजेक्ट की पुष्टि होने के बाद हम कई सुरक्षित भुगतान विकल्प स्वीकार करते हैं।",
 
        consultationTitle:"क्या आप अपना ड्रीम प्रोजेक्ट शुरू करना चाहते हैं?",
 
@@ -491,6 +499,10 @@ setText("consultationBtn", translations[currentLang].consultationBtn);
 document.getElementById("consultationBtn").href =
 translations[currentLang].consultationWhatsApp;
 setText("consultationEmail", translations[currentLang].consultationEmail);
+
+setText("paymentTitle",translations[currentLang].paymentTitle);
+
+setText("paymentDesc",translations[currentLang].paymentDesc);
 
 setText("whyTitle", translations[currentLang].whyTitle);
 
