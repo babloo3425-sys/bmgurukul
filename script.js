@@ -20,7 +20,9 @@ if (backBtn) {
 ====================== */
 
 const galleryImages =
-document.querySelectorAll(".screenshots-grid img, .screenshot-grid .shot img");
+document.querySelectorAll(
+    ".screenshots-grid img, .screenshot-grid .shot img, .single-shot img"
+);
 const lightbox =
 document.getElementById("lightbox");
 
